@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * 
- * @author Hady Diab
+ * @author Hady Diab (hdiab22)(HadyTheDiabMan)
  *
  */
 public class StockCCalculator
@@ -44,7 +44,7 @@ double netgainloss= amountsoldstocks-amountpaidstocks-commissionpurchase-commiss
 System.out.println("RESULTS:");
 System.out.print("\nTotal paid for "+sharespurchased+" shares: $"+amountpaidstocks);
 System.out.print("\nCommision on purchase: $"+ commissionpurchase);
-System.out.print("\nTotal sale price for " +sharespurchased+ " : $"+amountsoldstocks );
+System.out.print("\nTotal sale price for " +sharespurchased+ " shares : $"+amountsoldstocks );
 System.out.print("\nCommision on sale: $"+commissionsell);
 System.out.print("\nNet gain/loss: $"+netgainloss);
 
